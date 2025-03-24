@@ -33,7 +33,7 @@
   /* general styles */
   body{
     /* background-color: #ffce0c91; */
-    background: linear-gradient(45deg,rgba(255, 255, 0, 0.13),rgba(255, 255, 0, 0.221),rgba(255, 255, 0, 0.14));
+    background: linear-gradient(45deg,rgba(255, 255, 0, 0.08),rgba(255, 255, 0, 0.12),rgba(255, 255, 0, 0.074));
     height: 100vh;
     scroll-behavior: smooth;
    
@@ -79,6 +79,8 @@
     background-color: rgb(120, 19, 19);
     transition: width 0.3s ease;
   }
+
+  /* In CSS, ::before and ::after are pseudo-elements that allow you to insert content before or after an element's actual content, without modifying the HTML. They are often used for decorative or stylistic purposes. */
 
   .navbar-nav .nav-item a:hover::after{
     width: 100%;
@@ -723,10 +725,11 @@ width: 7rem;
     <!-- explore foods | food menu ends---------->
 
     <!-- banner starts------------------------ -->
-    <div class="banner-section d-flex flex-column justify-content-center mb-5">          
-        <h1 class="banner-text text-center display-4 mt-4  " data-aos="fade-down-right" data-aos-duration="700">Grab your special offer today</h1>
+    <div class="banner-section d-flex flex-column justify-content-center mb-5">  
+                
+        <h1 class="banner-text text-center display-4 mt-4  " data-aos="fade-down-right" data-aos-duration="700 " style="transform: rotate(-2deg);">Grab your special offer today</h1>
 
-        <h1 class="text-center display-3 mt-4  fw-bold banner-offer" data-aos="fade-down-right" data-aos-duration="600">50% off</h1>
+        <h1 class="text-center display-3 mt-4  fw-bold banner-offer" data-aos="fade-down-right" data-aos-duration="600" style="transform: rotate(-2deg);">50% off</h1>
  
     </div>
     <!-- banner ends-------------------------- -->
