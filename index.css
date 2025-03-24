@@ -38,120 +38,28 @@
 
 @media(max-width:500px){
   .banner-section{
-    background-size: contain;
+    background-size: cover;
     height:100vh;
     padding: 1% 0;
 
   }
-}
+
+  .banner-text{
 
 
-/* banner-section ends------------------------------------------------------------ */
-
-/* about-us, visions starts------------------------------------------------------- */
-
-/* about-us-starts    */
-
-.about-us-section{
-    height: 90vh;
-
-    font-family: "Dancing Script";
-    font-optical-sizing: auto;
-    /* font-weight: 1000; */
-    font-style: normal;
-
-    overflow-x: hidden;
-    
-   
-}
-
-.about-us-img{
-    background: url(Resources/chef-preparing-delicious-meal.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-
-.about-us-para{
-  font-size: 22px;
-  opacity: 0.9;
-}
-
-@media(max-width:500px){
-  .about-us-section{
-    height: 130vh;
-
-  }
-  .about-us-img{
-    height: 50vh;
-
-  }
-  .about-us-desc{
-    height: 50vh;
-  }
-
-  .about-us-para{
-    font-size: 1.1rem;
-    
-  }
-
-}
-
-/* about-us-ends----------------------------------------------------------- */
-
-/* vision-section-starts -------------------------------------------------- */
-
-.vision-section{
-  height: 90vh;
-  font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  /* font-weight: 1000; */
-  font-style: normal;
-
-  overflow-x: hidden;
-  
+    font-size: 1.8rem;
   
 }
 
-.vision-img{
-  background: url(Resources/snappy_interior.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.banner-offer{
 
+    font-size: 2rem;
+
+  }
 }
 
-.vision-para{
-  font-size: 22px;
-  opacity: 0.9;
-}
 
-@media(max-width:500px){
-  .vision-section{
-    height: 130vh;
-
-  }
-  .vision-img{
-    height: 50vh;
-
-  }
-  .vision-desc{
-    height: 50vh;
-  }
-
-  .vision-para{
-    font-size: 1.1rem;
-  }
-
-}
-
-/* visions-section-ends   */
-
-
-
-
-/* about-us, visions ends------------------------------------------------------------ */
+/* banner-section ends---------------------------------------------------------------- */
 
 
 /* customer-comments starts------------------------------------------------------------*/
