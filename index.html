@@ -13,6 +13,7 @@
     <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
 
     <!-- custom-css -->
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="">
     
@@ -509,7 +510,7 @@
 
                     //in case empty input 
                     if(!food){
-                      $('#selected-food-display').html('<p class="text-danger">Input form not filled </p>');
+                      $('#selected-food-display').html('<div class="alert text-danger">Form not filled</div>');
 
                       return;
                     }
@@ -519,7 +520,7 @@
 
                 });
             });
-            </script>
+          </script>
         
           <!-- jquerry -->
 
@@ -542,7 +543,7 @@
     </div>
     <!-- hero ends------------------------------>
 
-    <div id="selected-food-display" class="text-center mt-3"></div>
+    <div id="selected-food-display" class="text-center mt-3" style="overflow-x: hidden;"></div>
 
     <!-- categories - main  starts-------------->
     <div class="categories my-1">
